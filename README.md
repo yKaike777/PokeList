@@ -60,16 +60,6 @@ Animações suaves 🎞️ para transições e efeitos de hover nas imagens e bo
 Loader estilizado com a Pokébola girando 🔄⚪🔴 para animar durante o carregamento.
 
 
-5. Conteúdo Adicional
-
-Seção de notícias com cards animados 📰✨ para manter os fãs atualizados.
-
-Galeria de sprites e animações 🎥🖼️ mostrando todas as formas do Pokémon.
-
-Perfis de treinadores famosos 🧑‍🚀 com cards que giram ao passar o mouse 🔄.
-
-Guias e dicas interativos com vídeos embutidos para facilitar o aprendizado 📚.
-
 
 6. Extras Técnicos (Para aprimorar a experiência)
 
@@ -80,6 +70,9 @@ Feedbacks visuais animados ✅🎉 para confirmar ações do usuário.
 Carregamento progressivo com placeholders animados ⏳🖼️ para não deixar a página parada.
 
 Notificações pequenas e animadas 🔔💬 para avisos importantes ao usuário.
+
+
+Nesta segunda etapa do site construímos a estrutura do código base, arrumamos versionamento separando em branch "Dev", "Testes" e "Master", e colocamos uma tag tambem no versionamento.
 
 
 Link da planta de nosso site: https://www.figma.com/design/ENolOxBSn8UzIC59GLWeLX/Sem-t%C3%ADtulo?node-id=0-1&t=8gcrRHllIFp6ubWj-1

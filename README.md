@@ -1,5 +1,10 @@
 # PokeList
 
+JUSTIFICATIVA: Queremos fazer esse site para ampliar o conhecimento sobre os pokemons tanto antigos quantos os novos para novas pessoas, como publicos adultos, adolescentes e crianças, e queremos também melhor desempenho.
+
+
+
+
 1. Filtros Avançados e Interativos
 
 Filtros por tipo como Água 💧, Fogo 🔥, Planta 🌿 e Pedra 🪨 para facilitar a busca.

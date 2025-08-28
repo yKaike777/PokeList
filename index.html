@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/typestyle.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>PokeList</title>
+</head>
+<body>
+     
+    <header>
+        <div>
+            <div id="home-icon">
+                <a href="info.html"><i class="fas fa-house"></i></a>
+                
+            </div>
+
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+
+
+        <img src="img/pokedex-logo.png" alt="" id="logo-pokedex">
+
+        <div>
+            <div id="search-bar">
+                <input type="text" id="search-input" placeholder="Search Pokémon">
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div id="options-icon">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <div class="container m-0" id="container">
+            <div id="filtros">
+                <h1>FILTROS</h1>
+
+                <div>
+                    <h2>Tipos</h2>
+                    <ul id="filtro-tipos">
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Normal</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Fogo</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Água</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Grama</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Voador</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Lutador</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Venenoso</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Elétrico</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Terra</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Pedra</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Psíquico</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Gelo</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Inseto</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Fantasma</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Aço</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Dragão</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Sombrio</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Fada</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Stellar </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Região / Geração</h2>
+                    <ul id="filtro-geracao">
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Kanto</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Johto</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Hoenn</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Sinnoh</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Unova</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Kalos</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Alola</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Galar</span>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="">
+                            <span>Paldea</span>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        </div> 
+
+        <main class="container mt-5">
+            <hr class="linha-vertical">
+            <h1>Pokémons</h1>
+            <!-- Aqui os cards vão ser inseridos -->
+            <div id="pokemon-container" class="d-flex flex-wrap gap-3 justify-content-center">
+            </div>
+
+            <div class="w-100 d-flex justify-content-center m-5 p-5">
+                <button onclick="carregarPokemon()" id="load-btn">Carregar Mais Pokémons</button>
+            </div>
+            
+        </main>
+        
+        
+
+    </div>
+
+    <footer class="d-flex justify-content-center align-content-center p-3 text-light" style="background-color: #1C1E30;">
+        <p>Feito por <a href="https://github.com/yKaike777">Kaike</a> e <a href="https://github.com/167888">Pietro</a></p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

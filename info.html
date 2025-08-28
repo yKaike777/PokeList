@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/info.css">
+    <link rel="stylesheet" href="style/typestyle.css">
+    <title>PokeList</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <div id="home-icon">
+                <a href="index.html"><i class="fas fa-house"></i></a>
+                
+            </div>
+
+            <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+
+
+        <a href="index.html"><img src="img/pokedex-logo.png" alt="" id="logo-pokedex"></a>
+
+        <div>
+            <div id="search-bar">
+                <input type="text" id="search-input" placeholder="Search Pokémon">
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div id="options-icon">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="info-container">
+            <div id="pokemon-image">
+                <img src="img/charizard.png" alt="" height="90%" id="image">
+            </div>
+
+            
+
+            <div id="pokemon-description">
+                <div id="pokemon-type">
+                    <span class="type" id="first-type">Tipo 1</span>
+                    <span class="type" id="second-type">Tipo 2</span>
+                </div>
+
+                <h2 id="pokemon-name">Pokemon name</h2>
+
+                <div id="pokemon-pokedex">
+                    It uses its wings to fly sky-high. The more experience it gains in battle, the greater the temperature at which its flames burn.
+                </div>
+            </div>
+
+            <div id="evolutions-area">
+                <h2>Evoluções</h2>
+                    <div id="evolution-01" class="evolution first">
+                        <img src="img/charmander.png" alt="" height="125px">
+                    </div>
+                    <div id="evolution-02" class="evolution middle">
+                        <img src="img/charmeleon.png" alt="" height="125px">
+                    </div>
+                    <div id="evolution-03" class="evolution last">
+                        <img src="img/charizard.png" alt="" height="125px">
+                    </div>
+
+            </div>
+        </div>
+
+        <div id="stats-container">
+            <div id="pokemon-disadvantages">
+                <h2>Fraquezas</h2>
+                <div class="types">
+                    <span class="normal-type type">Normal</span>
+                    <span class="fire-type type">Fogo</span>
+                    <span class="water-type type">Água</span>
+                    <span class="grass-type type">Grama</span>
+                    <span class="flying-type type">Voador</span>
+                    <span class="fighting-type type">Lutador</span>
+                    <span class="poison-type type">Venenoso</span>
+                    <span class="electric-type type">Elétrico</span>
+                    <span class="ground-type type">Terra</span>
+                </div>
+
+            </div>
+
+            <div id="pokemon-advantages">
+                <h2>Vantagens</h2>
+                <div class="types">
+                    <span class="rock-type type">Pedra</span>
+                    <span class="psychic-type type">Psíquico</span>
+                    <span class="ice-type type">Gelo</span>
+                    <span class="bug-type type">Inseto</span>
+                    <span class="ghost-type type">Fantasma</span>
+                    <span class="steel-type type">Aço</span>
+                    <span class="dragon-type type">Dragão</span>
+                    <span class="dark-type type">Sombrio</span>
+                    <span class="fairy-type type">Fada</span>
+                    <span class="stellar-type type">Stellar</span>
+                </div>
+
+            </div>
+
+            <div id="pokemon-stats">
+
+            </div>
+
+            <div id="pokemon-biomes">
+
+            </div>
+        </div>
+    </main>
+
+    <script src="info.js"></script>
+</body>
+</html>

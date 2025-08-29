@@ -1,0 +1,1587 @@
+{
+  "id": "12c5f5b1-38c9-4349-814f-a45a0edd7d7d",
+  "version": "2.0",
+  "name": "PokeList",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "fbcc4e76-a109-42fa-be81-f9cbb8b86c3c",
+    "name": "CT01",
+    "commands": [{
+      "id": "eaef238a-cf25-487b-926a-e2403904ec8b",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "717f4070-7045-43c9-9e68-f7f9501f99db",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(1) > input",
+      "targets": [
+        ["css=li:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@value='Normal']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e64bf97-7a0a-4ba9-960d-6cbdb1f908bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > input",
+      "targets": [
+        ["css=li:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@value='Normal']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ddfa47-a424-43fc-a5ee-4e57fee34504",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > input",
+      "targets": [
+        ["css=li:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@value='Normal']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b63156ef-6637-424b-846a-a3f6ea1c8ac5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(1) > input",
+      "targets": [
+        ["css=li:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@value='Normal']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2a7ed5d-4333-4fe3-9032-33f97d319b31",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) > input",
+      "targets": [
+        ["css=li:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Fire']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1204d03c-a909-4f27-baf8-4e8f91571659",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(2) > input",
+      "targets": [
+        ["css=li:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Fire']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d40d797-c12f-48fc-81a7-3ee8f3334d0e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(2) > input",
+      "targets": [
+        ["css=li:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Fire']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feae7903-0513-4b56-b9c0-663c9abb7f2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > input",
+      "targets": [
+        ["css=li:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Fire']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "161ff607-488e-4565-b00e-cc751f836cba",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > input",
+      "targets": [
+        ["css=li:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Fire']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38a2ab3b-ab53-46f4-b10b-30c107c7ba9c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(2) > input",
+      "targets": [
+        ["css=li:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@value='Fire']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c382208e-0b66-447a-8398-0dbe33d874b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(3) > input",
+      "targets": [
+        ["css=li:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Water']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a5c0ce2-6cb1-4de2-af63-8707d636becf",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > input",
+      "targets": [
+        ["css=li:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Water']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a224634f-5108-4381-bfd9-9b2e2804d8cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > input",
+      "targets": [
+        ["css=li:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Water']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "993159b9-56ec-4e7b-8661-3192cb0bc41b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(3) > input",
+      "targets": [
+        ["css=li:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@value='Water']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3c173b6-58a9-4643-bd3a-34889bc56093",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(4) > input",
+      "targets": [
+        ["css=li:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@value='Grass']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1e3dc2-5214-4449-bf99-fd77d23ba81e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(4) > input",
+      "targets": [
+        ["css=li:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@value='Grass']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "035d1060-c5bc-423d-a8a3-ae7840511345",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > input",
+      "targets": [
+        ["css=li:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@value='Grass']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5a9dcd-7664-4b24-8048-77465291860d",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > input",
+      "targets": [
+        ["css=li:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@value='Grass']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40af5906-9512-4010-b22d-6889aefc2ef0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(4) > input",
+      "targets": [
+        ["css=li:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@value='Grass']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[4]/input", "xpath:idRelative"],
+        ["xpath=//li[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c567ef97-022c-4b88-b22d-8a0b887a590d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) > input",
+      "targets": [
+        ["css=li:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Flying']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a3c359f-a847-4d6e-9b4e-6c5f3af5a49b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) > input",
+      "targets": [
+        ["css=li:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Flying']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b889f88-8a7b-43b7-84be-52d9ae775547",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > input",
+      "targets": [
+        ["css=li:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Flying']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "174068ad-2c3c-492b-a630-5d0559d93f0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > input",
+      "targets": [
+        ["css=li:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Flying']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cd3caf5-30c9-4173-99f2-146b6457b09f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(5) > input",
+      "targets": [
+        ["css=li:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='Flying']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adef68e8-0559-4e12-93f5-4f7e4c922706",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(6) > input",
+      "targets": [
+        ["css=li:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@value='Fighting']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[6]/input", "xpath:idRelative"],
+        ["xpath=//li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23a30d6b-46d7-4e91-a10e-fa1448a1e0eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(6) > input",
+      "targets": [
+        ["css=li:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@value='Fighting']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[6]/input", "xpath:idRelative"],
+        ["xpath=//li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b598150-1796-45f6-abed-0f0c95237473",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(6) > input",
+      "targets": [
+        ["css=li:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@value='Fighting']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[6]/input", "xpath:idRelative"],
+        ["xpath=//li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de41376-f647-417d-a90b-9f111bdd7ae8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(6) > input",
+      "targets": [
+        ["css=li:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@value='Fighting']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[6]/input", "xpath:idRelative"],
+        ["xpath=//li[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce32dab8-4895-47d0-942c-353e1e1de9e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(7) > input",
+      "targets": [
+        ["css=li:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@value='Poison']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[7]/input", "xpath:idRelative"],
+        ["xpath=//li[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e373b2a-d502-4403-b99d-7bd9fa9ac2d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(7) > input",
+      "targets": [
+        ["css=li:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@value='Poison']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[7]/input", "xpath:idRelative"],
+        ["xpath=//li[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ce0d32-1f58-404c-b63a-e6f43b33562f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(7) > input",
+      "targets": [
+        ["css=li:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@value='Poison']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[7]/input", "xpath:idRelative"],
+        ["xpath=//li[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2b58dd1-3287-47c4-993c-e702bef3c533",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(7) > input",
+      "targets": [
+        ["css=li:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@value='Poison']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[7]/input", "xpath:idRelative"],
+        ["xpath=//li[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc331e2-4d2f-4497-a4a8-e5f6c52327a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(8) > input",
+      "targets": [
+        ["css=li:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@value='Electric']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a7a471-8f13-42fe-88bc-8b07a532654d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(8) > input",
+      "targets": [
+        ["css=li:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@value='Electric']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1dcedc7-ba91-40d8-a193-57d8b304abfe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(8) > input",
+      "targets": [
+        ["css=li:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@value='Electric']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3de28eb1-e7ea-47bc-9510-dce54298ad5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) > input",
+      "targets": [
+        ["css=li:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@value='Electric']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67931cca-50c6-4144-8cf3-09f4a75f5b4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) > input",
+      "targets": [
+        ["css=li:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@value='Electric']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edb5216a-913e-4437-9ea2-311d60558dad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(8) > input",
+      "targets": [
+        ["css=li:nth-child(8) > input", "css:finder"],
+        ["xpath=//input[@value='Electric']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[8]/input", "xpath:idRelative"],
+        ["xpath=//li[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "897abf67-1466-41c6-86be-103a178a76c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(9) > input",
+      "targets": [
+        ["css=li:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@value='Ground']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "649a032f-489e-4fcf-a00e-a93b2193c639",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(9) > input",
+      "targets": [
+        ["css=li:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@value='Ground']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a6a604e-17a5-4ffd-a198-0a9a1450f050",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(9) > input",
+      "targets": [
+        ["css=li:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@value='Ground']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd851164-cc83-44eb-b1bc-ddb7f156bc6b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(9) > input",
+      "targets": [
+        ["css=li:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@value='Ground']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[9]/input", "xpath:idRelative"],
+        ["xpath=//li[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31ab1ce2-6c5d-40d7-8850-d3606ed9d433",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(10) > input",
+      "targets": [
+        ["css=li:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@value='Rock']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[10]/input", "xpath:idRelative"],
+        ["xpath=//li[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4c598d6-a572-410d-93a7-409bdb8cc506",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(10) > input",
+      "targets": [
+        ["css=li:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@value='Rock']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[10]/input", "xpath:idRelative"],
+        ["xpath=//li[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7ed1e39-2969-454b-a7f7-82640980d6e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(10) > input",
+      "targets": [
+        ["css=li:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@value='Rock']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[10]/input", "xpath:idRelative"],
+        ["xpath=//li[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69268ce7-a080-4fbc-ba94-583a02dae8ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(10) > input",
+      "targets": [
+        ["css=li:nth-child(10) > input", "css:finder"],
+        ["xpath=//input[@value='Rock']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[10]/input", "xpath:idRelative"],
+        ["xpath=//li[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01df25fc-8d9f-449f-9708-0b0de7159a08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(11) > input",
+      "targets": [
+        ["css=li:nth-child(11) > input", "css:finder"],
+        ["xpath=//input[@value='Psychic']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[11]/input", "xpath:idRelative"],
+        ["xpath=//li[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf833971-b618-479e-acc6-ee81c3062069",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(11) > input",
+      "targets": [
+        ["css=li:nth-child(11) > input", "css:finder"],
+        ["xpath=//input[@value='Psychic']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[11]/input", "xpath:idRelative"],
+        ["xpath=//li[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5d5f933-27e8-4020-8572-021df75e9ffe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(11) > input",
+      "targets": [
+        ["css=li:nth-child(11) > input", "css:finder"],
+        ["xpath=//input[@value='Psychic']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[11]/input", "xpath:idRelative"],
+        ["xpath=//li[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "105a2290-a1ec-42e4-b161-9c69449cc525",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(11) > input",
+      "targets": [
+        ["css=li:nth-child(11) > input", "css:finder"],
+        ["xpath=//input[@value='Psychic']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[11]/input", "xpath:idRelative"],
+        ["xpath=//li[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb56b05-3a87-47c3-bb51-f161c36c50b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(11) > input",
+      "targets": [
+        ["css=li:nth-child(11) > input", "css:finder"],
+        ["xpath=//input[@value='Psychic']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[11]/input", "xpath:idRelative"],
+        ["xpath=//li[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c838f9-1bff-4360-b2f0-ce4652c7754f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(11) > input",
+      "targets": [
+        ["css=li:nth-child(11) > input", "css:finder"],
+        ["xpath=//input[@value='Psychic']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[11]/input", "xpath:idRelative"],
+        ["xpath=//li[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73002b62-dcb4-4fd5-accd-496bc7532264",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(12) > input",
+      "targets": [
+        ["css=li:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@value='Ice']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[12]/input", "xpath:idRelative"],
+        ["xpath=//li[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2ab58b-d83c-411e-aed5-a4b981f0aecb",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(12) > input",
+      "targets": [
+        ["css=li:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@value='Ice']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[12]/input", "xpath:idRelative"],
+        ["xpath=//li[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "751f86c4-02fb-48a7-8519-65bea0a89dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(12) > input",
+      "targets": [
+        ["css=li:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@value='Ice']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[12]/input", "xpath:idRelative"],
+        ["xpath=//li[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a396be48-a7db-4182-9956-a71861c331ec",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(12) > input",
+      "targets": [
+        ["css=li:nth-child(12) > input", "css:finder"],
+        ["xpath=//input[@value='Ice']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[12]/input", "xpath:idRelative"],
+        ["xpath=//li[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a10a311-d93f-4d41-8bcc-d358367ef449",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(13) > input",
+      "targets": [
+        ["css=li:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@value='Bug']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[13]/input", "xpath:idRelative"],
+        ["xpath=//li[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfff2481-96da-4b89-b9b2-27492d519aec",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(13) > input",
+      "targets": [
+        ["css=li:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@value='Bug']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[13]/input", "xpath:idRelative"],
+        ["xpath=//li[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d34b0c-521a-4e24-8c43-d7cbbb852162",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(13) > input",
+      "targets": [
+        ["css=li:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@value='Bug']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[13]/input", "xpath:idRelative"],
+        ["xpath=//li[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f6ac44a-aef5-4ad3-bad6-b4746c9e804a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(13) > input",
+      "targets": [
+        ["css=li:nth-child(13) > input", "css:finder"],
+        ["xpath=//input[@value='Bug']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[13]/input", "xpath:idRelative"],
+        ["xpath=//li[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704e6856-a34f-43db-a28d-cbdff6a9a486",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(14) > input",
+      "targets": [
+        ["css=li:nth-child(14) > input", "css:finder"],
+        ["xpath=//input[@value='Ghost']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[14]/input", "xpath:idRelative"],
+        ["xpath=//li[14]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e22a41a-45d3-419b-b80a-2d8d057ff8b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(14) > input",
+      "targets": [
+        ["css=li:nth-child(14) > input", "css:finder"],
+        ["xpath=//input[@value='Ghost']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[14]/input", "xpath:idRelative"],
+        ["xpath=//li[14]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5728e91d-5588-4f38-8f0d-c0abb0dee92c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(14) > input",
+      "targets": [
+        ["css=li:nth-child(14) > input", "css:finder"],
+        ["xpath=//input[@value='Ghost']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[14]/input", "xpath:idRelative"],
+        ["xpath=//li[14]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1cc87aa-7a6c-4dd4-8418-955495ef5fe7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(14) > input",
+      "targets": [
+        ["css=li:nth-child(14) > input", "css:finder"],
+        ["xpath=//input[@value='Ghost']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[14]/input", "xpath:idRelative"],
+        ["xpath=//li[14]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c06751-1981-445e-9fe7-aad8781e8760",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(15) > input",
+      "targets": [
+        ["css=li:nth-child(15) > input", "css:finder"],
+        ["xpath=//input[@value='Steel']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[15]/input", "xpath:idRelative"],
+        ["xpath=//li[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66959470-6a50-4f11-a3b8-ec5a278fdbe3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(15) > input",
+      "targets": [
+        ["css=li:nth-child(15) > input", "css:finder"],
+        ["xpath=//input[@value='Steel']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[15]/input", "xpath:idRelative"],
+        ["xpath=//li[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "458b21a8-22d9-4e87-9ee4-80a872bafbe3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(15) > input",
+      "targets": [
+        ["css=li:nth-child(15) > input", "css:finder"],
+        ["xpath=//input[@value='Steel']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[15]/input", "xpath:idRelative"],
+        ["xpath=//li[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d3b0281-7b56-406d-95a6-0e6eb676ff2e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(15) > input",
+      "targets": [
+        ["css=li:nth-child(15) > input", "css:finder"],
+        ["xpath=//input[@value='Steel']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[15]/input", "xpath:idRelative"],
+        ["xpath=//li[15]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "249bc1fa-ec0e-4c86-b12f-b7c2d82c936d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(16) > input",
+      "targets": [
+        ["css=li:nth-child(16) > input", "css:finder"],
+        ["xpath=//input[@value='Dragon']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[16]/input", "xpath:idRelative"],
+        ["xpath=//li[16]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74726515-6230-4ae6-a2f6-91fe22eb0674",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(16) > input",
+      "targets": [
+        ["css=li:nth-child(16) > input", "css:finder"],
+        ["xpath=//input[@value='Dragon']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[16]/input", "xpath:idRelative"],
+        ["xpath=//li[16]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4a956a-5d5b-4b14-a6a2-4f6d10887ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(16) > input",
+      "targets": [
+        ["css=li:nth-child(16) > input", "css:finder"],
+        ["xpath=//input[@value='Dragon']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[16]/input", "xpath:idRelative"],
+        ["xpath=//li[16]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd443e2-beea-4305-a2b4-fa87df2a0167",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(16) > input",
+      "targets": [
+        ["css=li:nth-child(16) > input", "css:finder"],
+        ["xpath=//input[@value='Dragon']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[16]/input", "xpath:idRelative"],
+        ["xpath=//li[16]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f7ba72-6dd2-48e1-a028-f9db363de09c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(17) > input",
+      "targets": [
+        ["css=li:nth-child(17) > input", "css:finder"],
+        ["xpath=//input[@value='Dark']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[17]/input", "xpath:idRelative"],
+        ["xpath=//li[17]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d53fc3a-28c5-46c5-8d8a-60f5c8d2e750",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(17) > input",
+      "targets": [
+        ["css=li:nth-child(17) > input", "css:finder"],
+        ["xpath=//input[@value='Dark']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[17]/input", "xpath:idRelative"],
+        ["xpath=//li[17]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e5d6fd5-099f-4119-93e2-24ef3b957edf",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(17) > input",
+      "targets": [
+        ["css=li:nth-child(17) > input", "css:finder"],
+        ["xpath=//input[@value='Dark']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[17]/input", "xpath:idRelative"],
+        ["xpath=//li[17]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa0d477a-6ea1-49f2-a17d-5b1d4b129a49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(17) > input",
+      "targets": [
+        ["css=li:nth-child(17) > input", "css:finder"],
+        ["xpath=//input[@value='Dark']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[17]/input", "xpath:idRelative"],
+        ["xpath=//li[17]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1080f779-fbd2-4519-9d6b-3b5da3cb42bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(18) > input",
+      "targets": [
+        ["css=li:nth-child(18) > input", "css:finder"],
+        ["xpath=//input[@value='Fairy']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[18]/input", "xpath:idRelative"],
+        ["xpath=//li[18]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1bb4169-1fd3-4ac4-93ec-dfa4120b26df",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(18) > input",
+      "targets": [
+        ["css=li:nth-child(18) > input", "css:finder"],
+        ["xpath=//input[@value='Fairy']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[18]/input", "xpath:idRelative"],
+        ["xpath=//li[18]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f86f3fa8-6f26-40f1-b47b-27f6055153d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(18) > input",
+      "targets": [
+        ["css=li:nth-child(18) > input", "css:finder"],
+        ["xpath=//input[@value='Fairy']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[18]/input", "xpath:idRelative"],
+        ["xpath=//li[18]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f286cd37-76e8-432f-8a17-3c87f0809b6d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(18) > input",
+      "targets": [
+        ["css=li:nth-child(18) > input", "css:finder"],
+        ["xpath=//input[@value='Fairy']", "xpath:attributes"],
+        ["xpath=//ul[@id='filtro-tipos']/li[18]/input", "xpath:idRelative"],
+        ["xpath=//li[18]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8a76371a-119d-4deb-ac78-80c4576f7f7b",
+    "name": "CT02",
+    "commands": [{
+      "id": "e4e24870-72ac-4715-b98b-3adf2d8491ed",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8942229-f574-4eb4-a79c-f85187f513ee",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e15312d6-87ed-4924-9e2d-138a37fdeb5c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,646)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66a81336-f2be-4277-9510-6c50bf7e822e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1480)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5d11b2a-0688-48fc-89f5-aa9ce136f83b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2533)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "157901e9-2708-4a3d-a154-db6e61fd8f35",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3473)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f93bb9b7-fed2-4054-8d4d-9f314b91567c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4363)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "722f61d4-900e-487c-9235-6d0102f1715c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5610)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f792b68-ff3c-445a-91ec-df22caeb4c1d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6733)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "beea8b5e-f33b-4d2e-ab88-68f09038a4d6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,8262)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "64de4fe6-7850-4627-8803-a772c9d758af",
+    "name": "CT03",
+    "commands": [{
+      "id": "f15b8270-0ae0-4812-b9fb-d657eb99c136",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbffd522-efda-4a1e-9cf8-b75bf883f60f",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bed5ce67-191b-4d75-81c0-63fe5c02fb90",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='search-bar']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "pikachu"
+    }, {
+      "id": "347c77fc-1f74-41e8-b414-df650053c997",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d350261-ea58-4aab-9fe7-8c0f802926d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [],
+      "value": "bulbasaur"
+    }]
+  }, {
+    "id": "41b2c97a-4aeb-4de7-a46f-27eb23b93964",
+    "name": "CT04",
+    "commands": [{
+      "id": "349faacd-d9fc-414a-9a6d-5c4f6c539040",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9de70813-8a93-4eca-9bc6-27a264904b64",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-magnifying-glass",
+      "targets": [
+        ["css=.fa-magnifying-glass", "css:finder"],
+        ["xpath=//button[@id='search-button']/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb3a0eb0-f708-48bf-89ed-b6111ada7875",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(1) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='bulbasaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "17675b43-fcf9-473f-bc69-d7b1cc6272d9",
+    "name": "CT05",
+    "commands": [{
+      "id": "68f02ca1-03e1-4369-8bbb-3de09d08c47d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bf0fa7c-fe6b-49e6-8bca-fa5c1c334f84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(1) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='bulbasaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "facc3c2c-8095-4958-be4a-3890e26fc8ca",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.flying-type",
+      "targets": [
+        ["css=.flying-type", "css:finder"],
+        ["xpath=//div[@id='fraquezas']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e58584a-39d3-4ecf-a73d-6430f46407b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fire-type",
+      "targets": [
+        ["css=.fire-type", "css:finder"],
+        ["xpath=//div[@id='fraquezas']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8ae3fb-9ee8-4ee0-8c37-4fec91e49242",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=first-type",
+      "targets": [
+        ["id=first-type", "id"],
+        ["css=#first-type", "css:finder"],
+        ["xpath=//span[@id='first-type']", "xpath:attributes"],
+        ["xpath=//div[@id='pokemon-type']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0131b812-e927-45b4-b7bf-b5de193da438",
+    "name": "CT06",
+    "commands": [{
+      "id": "300d9fa3-8493-4144-965c-ea07bc9f0799",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19d9c984-55a3-4366-8a12-4e572684702b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(1) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='bulbasaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7bc7b68-385d-43d0-83a9-2e478951d994",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "603867fe-4058-4439-b660-57c9a7444e66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a9f39551-e849-4272-a9c6-0db8170884b8",
+    "name": "CT07",
+    "commands": [{
+      "id": "7636f1dc-094e-4863-af4a-a36179788043",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46d81181-d159-44e6-86a5-8367dec07b8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=logo-pokedex",
+      "targets": [
+        ["id=logo-pokedex", "id"],
+        ["css=#logo-pokedex", "css:finder"],
+        ["xpath=//img[@id='logo-pokedex']", "xpath:attributes"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6e0a26-f22d-4161-8f6f-31fcd20b21b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(1) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='bulbasaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bc59e4f-e9bc-4fe9-b0c1-add51e169fb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=logo-pokedex",
+      "targets": [
+        ["id=logo-pokedex", "id"],
+        ["css=#logo-pokedex", "css:finder"],
+        ["xpath=//img[@id='logo-pokedex']", "xpath:attributes"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "35b5e38d-a353-47c1-9c0b-a7f85a11c050",
+    "name": "CT08",
+    "commands": [{
+      "id": "240d68da-6e5e-4a04-a842-f6691ff6efea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00db7b64-780e-43e5-9500-853d1b26307f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kaike",
+      "targets": [
+        ["linkText=Kaike", "linkText"],
+        ["css=p > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Kaike')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://github.com/yKaike777')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kaike')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a95b7e0-4c24-4e44-848d-d3a51ea60b84",
+    "name": "CT09",
+    "commands": [{
+      "id": "c64c2fd5-92ae-4d66-bb6b-068aa6ff3ddc",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7851ee5-9c4e-45ac-8cf1-deac97873924",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card:nth-child(1) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(1) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='bulbasaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div/img", "xpath:idRelative"],
+        ["xpath=//main/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e38a186a-8230-4be3-b0d0-41178eb0f77b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card:nth-child(2) > .card-body",
+      "targets": [
+        ["css=.card:nth-child(2) > .card-body", "css:finder"],
+        ["xpath=//div[@id='pokemon-container']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bfdad0a-9d34-4147-aeee-1f78a05b6ad5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=3",
+      "targets": [
+        ["id=3", "id"],
+        ["css=#\\33", "css:finder"],
+        ["xpath=//h5[@id='3']", "xpath:attributes"],
+        ["xpath=//div[@id='pokemon-container']/div[3]/div/h5", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'#003')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bed5527-c80e-4398-8796-0e633c39eb38",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card:nth-child(4) .type",
+      "targets": [
+        ["css=.card:nth-child(4) .type", "css:finder"],
+        ["xpath=//div[@id='pokemon-container']/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c486839-03b0-48e0-b539-58926c174e73",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card:nth-child(1) .pokemon-name",
+      "targets": [
+        ["css=.card:nth-child(1) .pokemon-name", "css:finder"],
+        ["xpath=//div[@id='pokemon-container']/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2d595835-35c4-4cff-91f7-846327d1f4ad",
+    "name": "CT10",
+    "commands": [{
+      "id": "3344175f-90c9-453c-9784-0e3335c98e1e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df2c193c-ef9c-4cca-b7cb-7ec0686dfe68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(1) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='bulbasaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e52d25b-afa6-414f-bec9-cd49bace09d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=logo-pokedex",
+      "targets": [
+        ["id=logo-pokedex", "id"],
+        ["css=#logo-pokedex", "css:finder"],
+        ["xpath=//img[@id='logo-pokedex']", "xpath:attributes"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48a934d6-e503-4e97-a26b-6bcdaf4a72aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(2) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(2) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='ivysaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64156fdc-2895-467d-9149-2a70602b64ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=logo-pokedex",
+      "targets": [
+        ["id=logo-pokedex", "id"],
+        ["css=#logo-pokedex", "css:finder"],
+        ["xpath=//img[@id='logo-pokedex']", "xpath:attributes"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c6383c-1a7c-4f67-b3bc-a98d50ce7c46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(3) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='venusaur']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aebc19d5-0c12-42e4-9628-18bff4c0732d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67ed419b-1f31-45aa-8611-b02086d6c710",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(4) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(4) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='charmander']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div[4]/img", "xpath:idRelative"],
+        ["xpath=//div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4da104e-1a5e-48bf-90cf-4d218a8c2be0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd7a3ecb-9aa4-4eae-9940-e2211273af6a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8834f28a-d202-4341-97d1-b1a5c5d2853b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(5) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(5) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='charmeleon']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div[5]/img", "xpath:idRelative"],
+        ["xpath=//div[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf5edab-e24a-46ad-b1ca-6cdfb11b15bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b9fe31-f0e5-4683-989c-ec51849cc191",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2889c9f4-0408-4d62-9ee6-7c4a54449589",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(6) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(6) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='charizard']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div[6]/img", "xpath:idRelative"],
+        ["xpath=//div[6]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa24e248-9cd5-4aa0-9edc-4fce30436bdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caca1b79-7376-44e0-a410-331fc8c8a660",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9f9d34c-6b82-4645-bba3-e7980232d1d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(7) > .card-img-top",
+      "targets": [
+        ["css=.card:nth-child(7) > .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='squirtle']", "xpath:img"],
+        ["xpath=//div[@id='pokemon-container']/div[7]/img", "xpath:idRelative"],
+        ["xpath=//div[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da9f909b-1cc4-4878-969e-5a6cd4c484f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fas",
+      "targets": [
+        ["css=.fas", "css:finder"],
+        ["xpath=//div[@id='home-icon']/a/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad66e87b-ddfc-479c-a3d2-3f97253e2c91",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fbcc4e76-a109-42fa-be81-f9cbb8b86c3c"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}

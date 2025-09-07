@@ -1,0 +1,114 @@
+:root{
+    --primary: #C52233;
+    --shadow: #961723;
+    --secondary: #EDF2EF;
+    --black: #1C1E30;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    max-height: 60px;
+    background-color: var(--primary);
+    
+
+    position: relative;
+}
+
+header i{
+    color: var(--secondary);
+    font-size: 20px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#logo-pokedex{
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#search-bar{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+#search-bar input{
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#search-bar input:focus{
+    outline: none;
+}
+
+#search-bar button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-bar button i{
+    color: var(--primary);
+}
+
+.dropdown-item:active {
+  background-color: #ffffff;;
+  color: #1C1E30;
+  user-select: none;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #181818 !important;
+    color: #f1f1f1 !important;
+}
+
+header.dark-mode {
+    background-color: #111 !important;
+}
+
+.card.dark-mode {
+    background-color: #232323 !important;
+    color: #f1f1f1 !important;
+}
+
+footer.dark-mode {
+    background-color: #111 !important;
+    color: #f1f1f1 !important;
+}
+
+.pokedex-number.dark-mode{
+    color: #f1f1f1;
+}
+
+body.pequeno{
+    font-size: 0.8rem !important;
+}
+
+body.medio{
+    font-size: 1rem !important;
+}
+
+body.grande{
+    font-size: 1.3rem !important;
+}
+
+.dropdown-header{
+    z-index: 10;
+}

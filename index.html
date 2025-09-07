@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/typestyle.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>PokeList</title>
+</head>
+<body>
+     
+    <header class="fixed-top">
+        <div>
+            <div id="home-icon">
+                <a href="#"><i class="fas fa-house"></i></a>
+                
+            </div>
+
+
+        </div>
+
+
+        <img src="img/pokedex-logo.png" alt="" id="logo-pokedex">
+
+        <div>
+            <div id="search-bar">
+                <input type="text" id="search-input" placeholder="Search Pokémon">
+                <button id="search-button" onclick="search()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div id="options-icon" class="box position-relative">
+                <i class="fa-solid fa-gear" id="gear-icon" style="cursor:pointer;"></i>
+                <div id="dropdown-box" class="dropdown-menu p-3" style="display:none; position:absolute; right:0; top:40px;">
+                    <h6 class="dropdown-header">Opções</h6>
+                    <div class="dropdown-item d-flex justify-content-between">
+                        <span>Modo Escuro</span>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                        </div>
+                    </div>
+                    <div class="dropdown-item">
+                        <span>Tamanho da Fonte</span>
+                        <select name="" class="font-size-input">
+                            <option value="pequeno">Pequeno</option>
+                            <option value="medio" selected>Médio</option>
+                            <option value="grande">Grande</option>
+                        </select>
+                    </div>
+                    <a class="dropdown-item" href="#">Configurações</a>
+                    <a class="dropdown-item" href="#">Sair</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <div class="container m-0 fixed-top mt-5" id="container">
+            <div id="filtros" class="">
+                <h1>FILTROS</h1>
+
+                <div id="sla">
+                    <h2>Tipos</h2>
+                    <ul id="filtro-tipos">
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Normal" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Normal</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Fire" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Fogo</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Water" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Água</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Grass" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Grama</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Flying" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Voador</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Fighting" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Lutador</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Poison" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Venenoso</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Electric" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Elétrico</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Ground" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Terra</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Rock" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Pedra</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Psychic" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Psíquico</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Ice" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Gelo</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Bug" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Inseto</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Ghost" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Fantasma</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Steel" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Aço</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Dragon" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Dragão</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Dark" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Sombrio</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check form-switch m-0">
+                                <input class="form-check-input" value="Fairy" type="checkbox" role="switch" id="flexSwitchCheckChecked" >
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Fada</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            
+                
+            </div>
+
+        </div> 
+
+        <main class="container mt-5 mb-5">
+            <h1>Pokémons</h1>
+            <!-- Aqui os cards vão ser inseridos -->
+            <div id="pokemon-container" class="d-flex flex-wrap gap-3 justify-content-center mb-5">
+            </div>
+        </main>
+        
+        
+
+    </div>
+
+    <footer class="d-flex justify-content-center align-content-center p-3 text-light fixed-bottom" style="background-color: #1C1E30;">
+        <p>Feito por <a href="https://github.com/yKaike777">Kaike</a> e <a href="https://github.com/167888">Pietro</a></p>
+    </footer>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

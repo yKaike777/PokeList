@@ -1,0 +1,249 @@
+:root{
+    --primary: #C52233;
+    --shadow: #961723;
+    --secondary: #EDF2EF;
+    --black: #1C1E30;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--secondary);
+}
+
+.card-body, .card-img-top{
+    cursor: pointer;
+}
+
+.card-img-top{
+    background-color: transparent;
+}
+
+.card:hover{
+    background-color: #cecece;
+    transform: translateY(-10px);
+}
+
+#content{
+    display: flex;
+}
+
+#container{
+    width: 20%;
+}
+
+
+#filtros{
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 100%;
+
+    position: relative;
+    z-index: -1;
+}
+
+#filtros div{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+main{
+    position: relative;
+}
+
+.linha-vertical {
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  width: 2px;
+  height: 100%;
+  background-color: var(--black);
+}
+
+
+#load-btn{
+    padding: 5px 15px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin: auto;
+    transition: 200ms ease-in;
+}
+
+#load-btn:hover{
+    transform: translateY(-10px);
+    background-color: var(--primary);
+}
+
+.pokedex-number{
+    color: #1c1e3057;
+}
+
+.pokemon-name{
+    text-transform: capitalize;
+}
+@media (max-width: 1700px){
+
+    #content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #container{
+        width: 100%;
+        margin-top: 0 !important;
+        position: relative;
+        align-self: center;
+        display: flex;
+        
+    }
+    #filtros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: -1;
+    }
+
+    #sla{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0 !important;
+    }
+    ul{
+        display: grid;
+        width: 90%;
+        padding: 0;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+@media (max-width: 1100px) {
+    #content {
+        flex-direction: column;
+    }
+    #container {
+        width: 100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+    #filtros {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+        z-index: -1;
+    }
+    main.container {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 1170px){
+    #search-bar{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    #container {
+        width: 100%;
+        position: static;
+    }
+    #filtros {
+        margin-left: 0;
+        margin-top: 10px;
+        z-index: -1;
+    }
+    #content {
+        flex-direction: column;
+    }
+    main.container {
+        margin-top: 0 !important;
+    }
+    ul{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        max-height: none;
+        gap: 10px;
+    }
+    #logo-pokedex {
+        position: static;
+        transform: none;
+        margin: 0 auto;
+        display: block;
+    }
+    #search-bar input {
+        width: 150px;
+    }
+    #container {
+        width: 100%;
+        margin: 0;
+    }
+    #filtros {
+        margin: 0;
+        width: 100%;
+        z-index: -1;
+    }
+    main.container {
+        margin-top: 0 !important;
+    }
+    .card {
+        width: 90vw !important;
+        min-width: 200px;
+        max-width: 350px;
+    }
+    footer {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    #search-bar input {
+        width: 100px;
+        font-size: 0.9rem;
+    }
+    .card {
+        width: 98vw !important;
+        min-width: 150px;
+        max-width: 98vw;
+    }
+    #filtros h1, #filtros h2 {
+        font-size: 1.1rem;
+    }
+    ul li span {
+        font-size: 0.95rem;
+    }
+    footer {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+}
